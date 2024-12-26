@@ -1,0 +1,137 @@
+.l-footer-columns {
+    background: #242730;
+    clear: both;
+    color: #FFF;
+    padding-top: 30px;
+    .social-icons li {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        padding: 0;
+        width: 24px;
+        text-align: center;
+        & i {
+            font-size: 13px;
+            color: #fff;
+            padding: 3px 3px;
+            margin: 0;
+            width: 24px;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .block-title {
+        text-transform: uppercase;
+        color: #e4e4e4;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.43);
+        margin-top: 30px;
+        margin-bottom: 15px;
+        padding-bottom: 0px;
+        font-size: 1.1em;
+        font-weight: 700;
+        &:after {
+            /* content: "";
+            display: block;
+            width: 30px;
+            border-bottom: 1px solid $primary-color;
+            margin-bottom: -1px;
+            padding-bottom: 8px; */
+        }
+    }
+    & a {
+        color: #FFF;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .block-comment-recent li span {
+        display: block;
+        font-size: 13px;
+        opacity: 0.4;
+    }
+    .latest-posts {
+        .blog-title a {
+            font-size: 16px;
+        }
+        &ul li {
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.07);
+        }
+    }
+    .sub-menu {
+        display: block;
+    }
+}
+
+.l-footer-columns tfoot {
+    background: none repeat scroll 0 0 transparent;
+}
+.l-footer-columns table {
+    background-color: rgba(255,255,255,.3);
+}
+.l-footer-columns table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+    background-color: transparent;
+}
+.l-footer-columns #s {
+    background: rgba(255,255,255,.3);
+    border-bottom: 0;
+    border-width: 0;
+}
+.l-footer-columns input#searchsubmit {
+    height: 40px;
+    top: 0;
+}
+.l-footer-columns table caption {
+    color: #AAA;
+}
+
+.l-footer-columns, .l-footer {
+    background-color: #131210;
+}
+.l-footer-columns .block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.l-footer-columns, .l-footer-columns .block-title, .l-footer-columns ul li a {
+    color: rgba(255, 255, 255, 1);
+}
+.l-footer-columns, .l-footer {
+    background-color: #131210;
+}
+.l-footer-columns div.wpcf7 img.ajax-loader {
+    float: right;
+}
+.hide {
+    display: none;
+}
+.wpb_start_animation, .animation-parent, .animated {
+    overflow: hidden !important;
+}
+.row {
+    margin: 0 auto;
+    max-width: 94.28571em;
+    width: 100%;
+}
+.wpb_row {
+    &.row {
+        margin: 0 auto;
+        clear: both;
+    }
+}
+.textwidget {
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.714;
+    margin-bottom: 1.42857em;
+}
+.footer-logo {
+    padding-top: 50px;
+    text-align: center;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
